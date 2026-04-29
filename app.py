@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load model
-model = tf.keras.models.load_model("bone_model.h5")
+model = tf.keras.models.load_model("bone_model.h5", compile=False)
 
 IMG_SIZE = 160
 
